@@ -1,0 +1,52 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Sun Tzu quotes | Random generator</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <style type="text/css">
+    </style>    
+</head>
+
+<body>
+
+<div class="flex flex-col items-center justify-center min-h-screen bg-gray-300 font-sans leading-normal"
+style="background:url('./china-nature.jpg'); background-size: cover; background-repeat: no-repeat;">
+<!-- https://i.pinimg.com/originals/23/e8/50/23e850c86e98bae618835e76d9de4848.jpg -->
+    <div class="bg-gray-100 rounded max-w-lg w-full shadow-lg overflow-hidden">
+        <div class="p-4 border-b">
+            <p id="quote-box" class="font-semibold text-lg mb-1 text-black">“Appear weak when you are strong, and strong when you are weak.”</p>
+            <p class="text-grey-darker italic">&mdash; Sun Tzu</p>
+        </div>
+    </div>
+    
+    <div class="inline-flex mt-5">
+        <button id="quote-button" class="bg-orange-500 text-white font-bold py-2 px-4 rounded inline-flex items-center mx-4">
+            <span>Quote</span>
+        </button>
+     
+        <a id='tweet-link' href="#">
+            <button id="tweet-button" class="bg-blue-400 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+                <span>Tweet</span>
+            </button>
+        </a>
+    </div>
+
+    <div class="absolute bottom-0 right-0 bg-gray-300 rounded-sm">
+            <div class="flex items-center justify-center px-3 py-3">
+                <p class="text-gray-700">
+                    Created By The
+                    <a href="https://github.com/codecrapper" target="_blank" class="text-blue-600">CodeCrapper &#128169;</a>
+                </p>
+            </div>
+        </div>
+
+</div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
